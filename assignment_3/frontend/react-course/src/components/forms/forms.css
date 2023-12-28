@@ -1,0 +1,4 @@
+.col-sm-2-5 {
+    flex: 0 0 calc(30% - 1rem);
+    max-width: calc(22% - 1rem);
+}

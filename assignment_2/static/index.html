@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            Assignment 2
+        </title>
+        <script type="module" src="./../static/form.js"></script>
+        <script type="module" src="./../static/dom_structures.js"></script>
+        <script type="module" src="./../static/event_handlers.js"></script>
+        <link href="./../static/ebay.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <body>
+            <div class="ebay-main-div">
+                <a href="https://www.ebay.com/" target="_blank"><img class="ebay-image" src="./../static/images/eBayLogo.png" alt="Ebay Logo"></a>
+                <h1>Shopping</h1>
+            </div>
+            <div class="ebay-main-div">
+                <form onsubmit="return false">
+                    <table class="form-table">
+                        <tr class="tr-form-table">
+                            <td class="td-form-table"><b class="required">Keywords</b><b>:</b> <input type="text" id="keyword" required></td>
+                        </tr>
+                        <tr class="tr-form-table">
+                            <td class="td-form-table">
+                                <b>
+                                    Price Range:
+                                </b>
+                                &nbsp;
+                                From
+                                &nbsp;
+                                <input type="number" id="from" style="width: 50px;">
+                                &nbsp;
+                                to
+                                &nbsp;
+                                <input type="number" id="to" style="width: 50px;"> 
+                            </td>
+                        </tr>
+                        <tr class="tr-form-table">
+                            <td class="td-form-table">
+                                <b>Condition: </b>
+                                <input type="checkbox" id="new" name="New" value="New">
+                                <label for="new"> New</label>
+
+                                <input type="checkbox" id="used" name="Used" value="Used">
+                                <label for="used"> Used</label>
+
+                                <input type="checkbox" id="very_good" name="Very Good" value="Very Good">
+                                <label for="very_good"> Very Good</label>
+
+                                <input type="checkbox" id="good" name="Good" value="Good">
+                                <label for="good"> Good</label>
+
+                                <input type="checkbox" id="acceptable" name="Acceptable" value="Acceptable">
+                                <label for="acceptable"> Acceptable</label>
+                            </td>
+                        </tr>
+                        <tr class="tr-form-table">
+                            <td class="td-form-table">
+                                <b>Seller: </b>
+                                <input type="checkbox" id="return_accepted" name="Return Accepted" value="Return Accepted">
+                                <label for="return_accepted"> Return Accepted</label>
+                            </td>
+                        </tr>
+                        <tr class="tr-form-table">
+                            <td class="td-form-table">
+                                <b>Shipping: </b>
+                                <input type="checkbox" id="free" name="Free" value="Free">
+                                <label for="free"> Free</label>
+
+                                <input type="checkbox" id="expedited" name="Expedited" value="Expedited">
+                                <label for="expedited"> Expedited</label>
+                            </td>
+                        </tr>
+                        <tr class="tr-form-table">
+                            <td class="td-form-table">
+                                <b>Sort by: </b>
+                                <select name="Sort By" id="sort_by" class="dropdown-menu">
+                                    <option value="Best Match">Best Match</option>
+                                    <option value="Price: highest first">Price: highest first</option>
+                                    <option value="Price + Shipping: highest first">Price + Shipping: highest first</option>
+                                    <option value="Price + Shipping: lowest first">Price + Shipping: lowest first</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="tr-form-table">
+                            <td class="td-form-table">
+                                <button id="clear-button" type="button" class="form-button">Clear</button>
+                                <button id="submit-button" type="submit" class="form-button">Search</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            
+        </body>
+        
+    </body>
+</html>

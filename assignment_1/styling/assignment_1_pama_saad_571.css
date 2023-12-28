@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+
+.margin-left-tag {
+    margin-left: 51.5px;
+}
+
+.font-family-tag {
+    font-family: 'Rozha One', serif;;
+}
+
+.custom-font {
+    color: rgb(23, 55, 186);
+    font-weight: bold;
+}
+
+.title-tag {
+    font-size: 32px;
+    margin-top: 18px;
+}
+
+hr {
+    margin-top: -12px;
+    margin-left: 0;
+    border: none;
+    height: 0.742px;
+    width: 877px;
+    background: black;
+}
+
+.menu-div {
+    margin-top: 13px;
+}
+
+.menu-div a {
+    padding-right: 8.2px;
+    text-decoration: none;
+    font-size: 9.2px;
+}
+
+.menu-button-font-family-tag {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.menu-div a.active {
+    color: rgb(19, 58, 186);
+}
+
+.menu-div a:active, a:visited {
+    color: black;
+}
+
+.fixed-div {
+    background-image: url('../images/Cutlery.png');    
+    background-attachment: fixed;
+    background-position: 51.5px -50px;
+    background-size: 776px;
+
+    width: 736px;
+    height: 439px;
+    margin-top: 30.5px;
+    padding-left: 40px;
+    padding-top: 0.01px;
+}
+
+.collection-margin {
+    margin-top: 38px;
+    font-size: 43px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.fall-cutlery-collection {
+    margin-top: -44px;
+}
+
+#shop_now {
+    margin-top: 1px;
+    padding: 13px 16px 12px;
+    padding-right: 16px;
+    background-color: white;
+    border: None;
+    font-size: 13px;
+}
+
+.mid-class {
+    margin-left: 292px;
+    margin-top: 40px;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.container-div {
+    display: flex;
+    margin-top: 27.5px;
+}
+
+.inner-div {
+    margin-right: 26.5px;
+}
+
+.decor {
+    margin-left: 159px;
+}
+
+.your-bedroom {
+    margin-left: 123px;
+}
+
+.your-kitchen {
+    margin-left: 130px;
+}
+
+.your-bathroom {
+    margin-left: 120px;
+}
+
+img {
+    width: 374.5px; 
+    height: 320px; 
+}
+
+.sub-division-upper {
+    margin-top: 38px;
+    margin-bottom: 42px;
+    font-size: 18px;
+}
+
+.sub-division-lower {
+    margin-top: 38px;
+    margin-bottom: 32px;
+    font-size: 18px;
+}

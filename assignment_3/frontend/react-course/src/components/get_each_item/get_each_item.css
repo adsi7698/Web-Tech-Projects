@@ -1,0 +1,12 @@
+.facebook-style {
+    height: 40px;
+}
+
+.facebook-share-button {
+    border: none;
+    background: none;
+}
+
+#button-wishlist:hover {
+    background-color: rgb(242, 246, 249);
+}

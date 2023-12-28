@@ -1,0 +1,22 @@
+.pagination-only-buttons button {
+    background-color: white;
+    border: 0;
+}
+
+.pagination-only-buttons button:hover {
+    background-color: rgba(231, 226, 226, 0.842);
+    border: 0;
+    text-decoration: underline;
+}
+
+.pagination-only-buttons .btn-primaries {
+    background-color: rgb(0, 128, 255) !important;
+    color: white          !important;
+}
+
+.pagination-only-buttons .disabled-class {
+    background-color: white; 
+    color: grey; 
+    opacity: 0.5; 
+    pointer-events: none; 
+}
